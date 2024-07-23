@@ -1,0 +1,204 @@
+/* สไตล์ทั่วไปปปปปปปปปปปปปป */
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecb2b2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: 1px solid #eee;
+  }
+  
+  /* สไตล์ของ Navigation Menu */
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  /* สไตล์สำหรับ Header */
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header img {
+    width: 200px;
+    height: auto;
+    border-radius: 50rem;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* สไตล์สำหรับ Section */
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* สไตล์สำหรับ Table */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  /* สไตล์สำหรับ Skills List */
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* สไตล์สำหรับ Education List */
+  
+  .education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .education-list li {
+    margin-bottom: 10px;
+  }
+  
+  .education-list h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* สไตล์สำหรับ Experience List */
+  
+  .experience-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .experience-list li {
+    margin-bottom: 20px;
+  }
+  
+  .experience-list h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .experience-list p {
+    margin-bottom: 0;
+  }
+  
+  /* สไตล์สำหรับ Social Media Links */
+  
+  .social-media {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .social-media a:hover {
+    color: #007bff;
+  }
+  /* display 768px */
+@media only screen and (max-width: 768px) {
+    .container {
+      max-width: 70%; 
+      padding: 15px; 
+    }
+    .header h1 {
+      font-size: 28px; 
+    }
+  }
+  nav ul {
+    display: flex; 
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px; 
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column; 
+    }
+  }
+  
+  
